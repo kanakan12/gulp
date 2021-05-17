@@ -4,7 +4,9 @@
   "description": "Practice gulp",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "gulp dev",
+    "build": "gulp build"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,13 @@
   "bugs": {
     "url": "https://github.com/kanakan12/gulp/issues"
   },
-  "homepage": "https://github.com/kanakan12/gulp#readme"
+  "homepage": "https://github.com/kanakan12/gulp#readme",
+  "dependencies": {
+    "@babel/core": "^7.14.2",
+    "@babel/preset-env": "^7.14.2",
+    "@babel/register": "^7.13.16",
+    "babel-core": "^6.26.3",
+    "babel-register": "^6.26.0",
+    "gulp": "^4.0.2"
+  }
 }
